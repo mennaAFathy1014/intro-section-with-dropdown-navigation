@@ -1,6 +1,6 @@
 :root{
     --main-clr:hsl(0, 0%, 98%);
-    --main-para-clr:hsl(0, 0%, 41%);
+    --main-para-clr:hsl(0deg 0% 29%);
     --main-heading-clr:hsl(0, 0%, 8%);
 }
 *{
@@ -71,10 +71,9 @@ button{
     position: relative;
 }
 
-.company span ul{
-    width: 7rem;
-}
-span ul{
+
+div ul{ 
+    width: 9rem;
     display: none;
     top: 2rem;
     color:var(--main-para-clr);
@@ -89,16 +88,19 @@ span ul{
     -ms-border-radius: 0.3rem;
     -o-border-radius: 0.3rem;
 }
+.company ul{
+    width: 8rem;
+}
 .opened{
     display: flex;
 }
-span ul a{
+div ul a{
     color:var(--main-para-clr);
 }
-span img{
+div img{
     margin-inline-end: 0.5rem;
 }
-span ul li{
+div ul li{
     display: flex;
     align-items: center;
     padding: 0.5rem;
@@ -124,7 +126,8 @@ span ul li{
     .nav ul li>span{
         display: inline-block;
     }
-    span ul.mob-opened{
+    div ul.mob-opened{
+        padding: 0;
         position: static;
         box-shadow: none;
         display: flex;
