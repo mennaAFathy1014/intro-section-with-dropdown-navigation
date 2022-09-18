@@ -25,10 +25,6 @@ window.addEventListener('click',function(e){
         else if(e.target.classList.contains('arrow-comp')||e.target.classList.contains('company')||e.target.parentElement.classList.contains('company')){
             compMenu.classList.toggle('mob-opened');
         }
-        // else{
-        //     featureMenu.classList.remove('mob-opened');
-        //     compMenu.classList.remove('mob-opened');
-        // }
     }
     if(e.target.classList.contains('bars')){
         nav.classList.add('open-nav');

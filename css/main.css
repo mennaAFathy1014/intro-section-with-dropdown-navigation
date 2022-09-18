@@ -140,7 +140,8 @@ div ul li{
         justify-content: space-between;
     }
     .open-nav{
-        width: 10rem;
+        text-align: center;
+        width: 15rem;
         position: absolute;
         justify-content: flex-start;
         right: 0;
@@ -152,6 +153,10 @@ div ul li{
 }
     .nav span{
         display: flex;
+    }
+    ul.mob-opened{
+        align-items: center;
+        width: 100%;
     }
     .buttons{
         display: flex;
@@ -216,13 +221,14 @@ div ul li{
     background-color: var(--main-clr);
 }
 .logos{
-    margin-block-start: auto;
+    padding-block: 2.5rem;
+    /* margin-block-start: auto; */
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
 .logos .logo{
-    width: 3.5em;
+    width: 5em;
 }
 @media (max-width:62rem) {
     .container{
@@ -237,6 +243,9 @@ div ul li{
     }
 }
 @media (max-width:48rem) {
+    .attribution{
+        padding: 1.25rem; 
+    }
     .container{
         flex-direction: column;
         gap: 0;
