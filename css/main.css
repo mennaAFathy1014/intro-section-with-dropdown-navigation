@@ -276,7 +276,7 @@ div ul li{
     }
     .learn{
         align-self: center;
-        margin-block-start: 0rem;
+        /*margin-block-start: 0rem;*/
     }
     .logos{
         justify-content: center;
